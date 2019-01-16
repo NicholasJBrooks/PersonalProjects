@@ -23,3 +23,4 @@ C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.Views.pdb
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.Views.pdb
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csproj.CopyComplete
+C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
