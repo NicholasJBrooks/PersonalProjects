@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Models\Interfaces\" />
+    <Folder Include="Views\Import\" />
+    <Folder Include="Views\Statistics\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

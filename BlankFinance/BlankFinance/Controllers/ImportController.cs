@@ -8,7 +8,22 @@ namespace BlankFinance.Controllers
 {
     public class ImportController : Controller
     {
-        public IActionResult Index()
+        public ViewResult BankOfAmerica()
+        {
+            return View();
+        }
+
+        public ViewResult BetterBankingAndTrust()
+        {
+            return View();
+        }
+
+        public ViewResult Chase()
+        {
+            return View();
+        }
+
+        public ViewResult AmericanExpress()
         {
             return View();
         }

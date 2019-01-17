@@ -8,7 +8,7 @@ namespace BlankFinance.Controllers
 {
     public class BudgetController : Controller
     {
-        public IActionResult Index()
+        public IActionResult MonthlyBudget()
         {
             return View();
         }
