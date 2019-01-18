@@ -9,7 +9,8 @@
     <Folder Include="Models\Interfaces\" />
     <Folder Include="Views\Import\" />
     <Folder Include="Views\Statistics\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
   <ItemGroup>
