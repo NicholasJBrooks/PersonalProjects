@@ -8,6 +8,8 @@ namespace BlankFinance.Models
 {
     public class Transaction
     {
+        Guid TransactionId { get; set; }
+
         [Required(ErrorMessage = "Please enter a valid date")]
         public DateTime Date { get; set; }
 
