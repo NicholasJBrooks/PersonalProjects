@@ -11,6 +11,6 @@ namespace BlankFinance.Models
 
         void SaveTransaction(Transaction transaction);
 
-        Transaction DeleteTransaction(int TransactionId); 
+        Transaction DeleteTransaction(Guid TransactionId); 
     }
 }

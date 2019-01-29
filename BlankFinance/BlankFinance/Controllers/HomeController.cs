@@ -12,5 +12,15 @@ namespace BlankFinance.Controllers
         {
             return View();
         }
+
+        public ViewResult BillsPaid()
+        {
+            return View(); 
+        }
+
+        public ViewResult InputSingleTransaction()
+        {
+            return View();
+        }
     }
 }

@@ -12,10 +12,16 @@ namespace BlankFinance.Controllers
 {
     public class ImportController : Controller
     {
-        public ViewResult Index()
+        public ViewResult ImportSingleTransaction(Transaction transaction)
         {
+
             return View(); 
         }
+
+        public ViewResult ImportCSVFIle()
+        {
+            return View(); 
+        } 
 
     }
 }

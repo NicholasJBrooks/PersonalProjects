@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Components\" />
     <Folder Include="Models\Interfaces\" />
     <Folder Include="Views\Import\" />
     <Folder Include="Views\Statistics\" />
