@@ -61,12 +61,12 @@ using BlankFinance.Models;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 333, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1df8eaa80dc24dbfa0b84cd07465e205", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f9b9639428841ce93726fc71fb879a9", async() => {
                 BeginContext(33, 65, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    ");
                 EndContext();
                 BeginContext(98, 142, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b664c23260d447bd9361e2bfd13e358c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "74ca8c70aaaa463eb4feec61910633c8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -88,7 +88,7 @@ using BlankFinance.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(246, 71, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a9b5bad3f1464c459c00a8762d96d450", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "96ebb372d3fe4c798ebe6efc7d6ec263", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper>();
@@ -123,12 +123,12 @@ using BlankFinance.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(362, 709, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89223ae385b24a90bdacfa45bfa7b588", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3582ece8777148ee9ba1c9cf18541e07", async() => {
                 BeginContext(368, 124, true);
                 WriteLiteral("\r\n    <div class=\"navbar navbar-light fa-navicon bg-info\" role=\"navigation\">\r\n        <div class=\"row col-12\">\r\n            ");
                 EndContext();
                 BeginContext(492, 89, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03d09738b6ec4d8286dcf60b1e06166f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cbd1ecc44c354732ad03f3e7b283d1e7", async() => {
                     BeginContext(564, 13, true);
                     WriteLiteral("Blank Finance");
                     EndContext();
@@ -153,7 +153,7 @@ using BlankFinance.Models;
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(595, 100, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9f95eff652746489d01a3d17db215a9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "baa35a17d260480b89677735da812ee2", async() => {
                     BeginContext(677, 14, true);
                     WriteLiteral("Monthly Budget");
                     EndContext();
@@ -178,7 +178,7 @@ using BlankFinance.Models;
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(709, 86, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a3954ffc4c5145c08c7db759f2a492b7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f8e977f47d846fda685be8674b24ef4", async() => {
                     BeginContext(781, 10, true);
                     WriteLiteral("Statistics");
                     EndContext();
@@ -203,7 +203,7 @@ using BlankFinance.Models;
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(809, 109, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec3ce66d7b7040f4ace2236507861b1d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6ead91f171e14051a7944faa6c9d797f", async() => {
                     BeginContext(898, 16, true);
                     WriteLiteral("Add Transactions");
                     EndContext();
