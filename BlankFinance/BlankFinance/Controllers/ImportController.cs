@@ -12,9 +12,21 @@ namespace BlankFinance.Controllers
 {
     public class ImportController : Controller
     {
-        public ViewResult ImportSingleTransaction(Transaction transaction)
-        {
+        private ITransactionRepository repository;
 
+        public ImportController(ITransactionRepository repo)
+        {
+            repository = repo; 
+        }
+
+        public IActionResult ImportSingleTransaction(Transaction transaction)
+        {
+            if (ModelState.IsValid)
+            {
+                repository.SaveTransaction(transaction);
+                TempData["Message"] = $"{transaction.Description} has been saved";
+                return Redirect("Home/Index"); 
+            }
             return View(); 
         }
 
