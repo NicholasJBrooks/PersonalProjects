@@ -1,13 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace BlankFinance.Controllers
 {
     public class HomeController : Controller
     {
+       // private EFTransactionRepository repository;
+
+        public HomeController()
+        {
+           
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -18,9 +21,5 @@ namespace BlankFinance.Controllers
             return View(); 
         }
 
-        public ViewResult InputSingleTransaction()
-        {
-            return View();
-        }
     }
 } 

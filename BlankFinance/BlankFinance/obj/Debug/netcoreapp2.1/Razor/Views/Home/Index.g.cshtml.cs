@@ -18,8 +18,13 @@ using BlankFinance.Models;
 
 #line default
 #line hidden
+#line 2 "C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\Views\_ViewImports.cshtml"
+using BlankFinance.Models.ViewModels;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"86180e53ecbe0e8b5a013f26819d390d436ffca5", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4fa06e63b1f2538fa29a940facffdabf3a718304", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ee999ccef3e9dedbcaeac9dd2ad0428030bc127b", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BlankFinance.Models
 {
     public class CSVConverter
     {
-        public Collection<Transaction> BankOfAmerica(string fileName)
+        public Collection<Transaction> BankOfAmerica(string contents)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
             return transactions;
@@ -38,7 +35,7 @@ namespace BlankFinance.Models
             return transactions;
         }
 
-        public Collection<Transaction> Chase(string fileName)
+        public Collection<Transaction> Chase(string contents)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
 
@@ -57,7 +54,7 @@ namespace BlankFinance.Models
             return transactions;
         }
 
-        public Collection<Transaction> AmericanExpress(string file)
+        public Collection<Transaction> AmericanExpress(string contents)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
             string[] split = { "", "" }; //line.Split(',');

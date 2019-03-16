@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BlankFinance.Models;
+﻿using BlankFinance.Models;
+using BlankFinance.Models.ViewModels;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlankFinance.Controllers
@@ -19,18 +14,33 @@ namespace BlankFinance.Controllers
             repository = repo; 
         }
 
+
+        public ViewResult ImportList()
+        {
+            ImportListViewModel model = new ImportListViewModel
+            {
+                //   Transactions = repository.Transactions.ToList()
+            };
+            return View(model);
+        }
+
+        public ViewResult ChooseFile() => View("ChooseFile");
+
+        public ViewResult InputSingleTransaction() => View();
+
         public IActionResult ImportSingleTransaction(Transaction transaction)
         {
             if (ModelState.IsValid)
             {
                 repository.SaveTransaction(transaction);
                 TempData["Message"] = $"{transaction.Description} has been saved";
-                return Redirect("Home/Index"); 
+                return Redirect("ImportList"); 
             }
             return View(); 
         }
 
-        public ViewResult ImportCSVFIle()
+        [HttpPost]
+        public ViewResult ImportCSVFile(IFormFile fileResult)
         {
             return View(); 
         } 

@@ -7,6 +7,8 @@
           asp-href-include="/lib/bootstrap/dist/**/*.min.css"
           asp-href-exclude="**/*-reboot*,**/*-grid*" />
     <link rel="stylesheet" asp-href-include="/lib/fontawesome/css/*.css" />
+    <script src="~/lib/jQuery/dist/jquery.min.js"></script>
+    <script src="~/lib/ajax/dist/ajax.min.js"></script>
     <title>Blank Finance</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
             <a class="col-3 btn btn-block text-white" asp-controller="Home" asp-action="Index">Blank Finance</a>
             <a class="col-3 btn btn-block text-white" asp-controller="Budget" asp-action="MonthlyBudget">Monthly Budget</a>
             <a class="col-3 btn btn-block text-white" asp-controller="Home" asp-action="Index">Statistics</a>
-            <a class="col-3 btn btn-block text-white" asp-controller="Home" asp-action="InputSingleTransaction">Add Transactions</a>
+            <a class="col-3 btn btn-block text-white" asp-controller="Import" asp-action="ImportList">Add Transactions</a>
         </div>
     </div>
     <div class="row m-1 p-1">
