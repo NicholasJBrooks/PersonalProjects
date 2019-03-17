@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace BlankFinance.Models
@@ -18,6 +20,14 @@ namespace BlankFinance.Models
         {
             throw new NotImplementedException();
         }
+
+        public void SaveAll(Collection<Transaction> trans)
+        {
+            foreach (Transaction temp in trans)
+            {
+                SaveTransaction(temp);
+            }
+        } 
 
         public void SaveTransaction(Transaction transaction)
         {

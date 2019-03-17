@@ -1,17 +1,47 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.ObjectModel;
+using System.IO;
 
 namespace BlankFinance.Models
 {
     public class CSVConverter
     {
-        public Collection<Transaction> BankOfAmerica(string contents)
+        public Collection<Transaction> BankOfAmerica(IFormFile file)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
             return transactions;
         }
 
-        public Collection<Transaction> BetterBankingAndTrust()
+        public Collection<Transaction> DesktopTransactions(IFormFile file)
+        {
+            Collection<Transaction> transactions = new Collection<Transaction>();
+
+            string line;
+            using (var streamReader = new StreamReader(file.OpenReadStream()))
+            {
+                while ((line = streamReader.ReadLine()) != null && !string.IsNullOrWhiteSpace(line))
+                {
+                    string[] split = line.Split(',');
+                    string amount = null;
+
+                    Transaction temp = new Transaction()
+                    {
+                        Date = DateTime.Parse(split[0]),
+                        Type = split[1],
+                        Description = split[2],
+                        Amount = Decimal.Parse(split[3]),
+                        Category = Categorize(split[4])
+                    };
+                    amount = null;
+                    transactions.Add(temp);
+                }
+            }
+               
+            return transactions; 
+        } 
+
+        public Collection<Transaction> BetterBankingAndTrust(IFormFile file)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
             string amount = null;
@@ -35,7 +65,7 @@ namespace BlankFinance.Models
             return transactions;
         }
 
-        public Collection<Transaction> Chase(string contents)
+        public Collection<Transaction> Chase(IFormFile file)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
 
@@ -54,7 +84,7 @@ namespace BlankFinance.Models
             return transactions;
         }
 
-        public Collection<Transaction> AmericanExpress(string contents)
+        public Collection<Transaction> AmericanExpress(IFormFile file)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
             string[] split = { "", "" }; //line.Split(',');
@@ -74,7 +104,7 @@ namespace BlankFinance.Models
 
         public string Categorize(string description)
         {
-            string category = null;
+            string category = string.Empty;
 
             //if (description.Contains("Harris Teeter") || description.Contains("HARRIS TEETER") || description.Contains("FOOD LION") || description.Contains("3501 HWY 601") || description.Contains("4226 HWY 49") || description.Contains("WAL-MART") || description.Contains("WAL-SAMS") || description.Contains("ALDI") || description.Contains("WM SUPERCENTER"))
             //{

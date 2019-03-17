@@ -8,20 +8,18 @@ namespace BlankFinance.Controllers
     public class ImportController : Controller
     {
         private ITransactionRepository repository;
+        private CSVConverter Converter = new CSVConverter(); 
 
         public ImportController(ITransactionRepository repo)
         {
             repository = repo; 
+            
         }
 
 
         public ViewResult ImportList()
         {
-            ImportListViewModel model = new ImportListViewModel
-            {
-                //   Transactions = repository.Transactions.ToList()
-            };
-            return View(model);
+            return View(repository.Transactions);
         }
 
         public ViewResult ChooseFile() => View("ChooseFile");
@@ -40,9 +38,12 @@ namespace BlankFinance.Controllers
         }
 
         [HttpPost]
-        public ViewResult ImportCSVFile(IFormFile fileResult)
+        public ViewResult ImportCSVFile(ChooseFileViewModel model)
         {
-            return View(); 
+
+            repository.SaveAll(Converter.DesktopTransactions(model.File));
+            
+            return View("ImportList", repository.Transactions); 
         } 
 
     }
