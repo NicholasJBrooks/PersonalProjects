@@ -2,6 +2,8 @@
 using BlankFinance.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace BlankFinance.Controllers
 {
@@ -41,10 +43,19 @@ namespace BlankFinance.Controllers
         public ViewResult ImportCSVFile(ChooseFileViewModel model)
         {
 
-            repository.SaveAll(Converter.DesktopTransactions(model.File));
+            Collection<Transaction> transactions = Converter.DesktopTransactions(model.File);
             
-            return View("ImportList", repository.Transactions); 
-        } 
+            return View("ImportList", transactions.AsQueryable()); 
+        }
+        
+        [HttpPost]
+        public ActionResult SaveToTransactionDB(IQueryable<Transaction> transactions)
+        {
+            repository.SaveAll(transactions);
+            repository.ClearRepository(transactions); 
+
+            return View("ImportList");
+        }
 
     }
 }

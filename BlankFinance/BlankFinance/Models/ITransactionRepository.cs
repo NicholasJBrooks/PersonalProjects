@@ -8,10 +8,12 @@ namespace BlankFinance.Models
     {
         IQueryable<Transaction> Transactions { get;  }
 
-        void SaveAll(Collection<Transaction> transactions);
+        void SaveAll(IQueryable<Transaction> transactions);
+
+        void ClearRepository(IQueryable<Transaction> transactions); 
 
         void SaveTransaction(Transaction transaction);
 
-        Transaction DeleteTransaction(Guid TransactionId); 
+        Transaction DeleteTransaction(Transaction transaction); 
     }
 }

@@ -7,5 +7,4 @@
 function InputTransaction() {
     $("#popup").load('InputSingleTransaction');
 }
-
  

@@ -31,7 +31,7 @@ namespace BlankFinance.Models
                         Type = split[1],
                         Description = split[2],
                         Amount = Decimal.Parse(split[3]),
-                        Category = Categorize(split[4])
+                        Category = split[4]
                     };
                     amount = null;
                     transactions.Add(temp);

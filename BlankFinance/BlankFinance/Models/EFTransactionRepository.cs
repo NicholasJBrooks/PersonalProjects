@@ -16,12 +16,22 @@ namespace BlankFinance.Models
 
         public IQueryable<Transaction> Transactions => context.Transactions;
 
-        public Transaction DeleteTransaction(Guid TransactionId)
+        public void ClearRepository(IQueryable<Transaction> transactions)
         {
-            throw new NotImplementedException();
+            foreach (Transaction temp in transactions)
+            {
+                context.Transactions.Remove(temp); 
+            }
         }
 
-        public void SaveAll(Collection<Transaction> trans)
+        public Transaction DeleteTransaction(Transaction transaction)
+        {
+            context.Transactions.Remove(transaction);
+
+            return transaction; 
+        }
+
+        public void SaveAll(IQueryable<Transaction> trans)
         {
             foreach (Transaction temp in trans)
             {
