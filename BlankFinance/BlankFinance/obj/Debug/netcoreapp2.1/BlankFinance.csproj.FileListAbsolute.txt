@@ -5,6 +5,7 @@ C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.pdb
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.Views.dll
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.Views.pdb
+C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csprojAssemblyReference.cache
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csproj.CoreCompileInputs.cache
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.RazorAssemblyInfo.cache
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.RazorAssemblyInfo.cs
@@ -27,4 +28,3 @@ C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.dll
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.pdb
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csproj.CopyComplete
-C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csprojAssemblyReference.cache

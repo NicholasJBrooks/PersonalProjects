@@ -33,7 +33,7 @@ namespace BlankFinance
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseStatusCodePages();
+                app.UseStatusCodePages();   
             }
 
             app.UseStaticFiles();

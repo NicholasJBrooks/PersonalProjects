@@ -42,7 +42,7 @@ namespace BlankFinance.Models
         public void SaveTransaction(Transaction transaction)
         {
             if (transaction.TransactionId == Guid.Empty)
-            {
+            {       
                 context.Transactions.Add(transaction);
             }
             else

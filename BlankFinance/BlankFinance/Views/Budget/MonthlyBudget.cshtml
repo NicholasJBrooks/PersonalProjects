@@ -1,4 +1,4 @@
-﻿
+﻿@model BudgetModel
 @{
     ViewData["Title"] = "MonthlyBudget";
 }
@@ -8,6 +8,18 @@
         <tr>
             <td class="col-12 text-center font-weight-bold">Monthly Budget</td>
         </tr>
+        @if (Model.Colmns != null && Model.Colmns.Count() > 0){
+            int i; 
+        @do {
+        <tr>
+            @for (i = 0; i < Model.Colmns.Count(); i++)
+            {
+
+            }
+        </tr>
+
+        } while (i <); 
+        }
     </thead> 
 </table>
 

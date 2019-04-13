@@ -1,9 +1,9 @@
 ﻿@using System.Collections.ObjectModel;
-@model IQueryable<Transaction> 
+@model IQueryable<Transaction>
 
 @{
     Layout = "_Layout";
- }
+}
 
 <script src="~/js/ImportAFIle.js"></script>
 
@@ -15,11 +15,14 @@
 <table class="table table-striped table-bordered col-12">
     <thead>
         <tr>
-            <td>Date</td><td>Category</td><td>Description</td><td>Amount</td>
+            <td>Date</td>
+            <td>Category</td>
+            <td>Description</td>
+            <td>Amount</td>
         </tr>
     </thead>
     <tbody>
-        @if(Model != null)
+        @if (Model != null)
         {
             @foreach (Transaction trans in Model)
             {
@@ -34,8 +37,7 @@
     </tbody>
 </table>
 
-<form action="@Url.Action("SaveToTransactionDB", "Import")" method="POST">
-    <input type="hidden" name="transactions" value="@Model">
-    <button class="btn btn-block" type="submit" >Save Transactions</button>
-</form>
-                
+<button onclick="SaveTransactions()" class="btn col-12">
+    Save Transactions
+</button>
+
