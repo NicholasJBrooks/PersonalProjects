@@ -8,5 +8,7 @@ namespace BlankFinance.Models
     public class BudgetRow
     {
         public string RowName { get; set; }
+        public decimal ActualTotal { get; set; }
+        public decimal ExpectedTotal { get; set; }
     }
 }

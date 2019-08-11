@@ -9,7 +9,7 @@ namespace BlankFinance.Models
 {
     public class BudgetModel
     {
-        public Collection<BudgetColumn> Colmns { get; set; }
+        public Collection<BudgetColumn> Columns { get; set; }
         
     }
 }

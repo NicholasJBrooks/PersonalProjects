@@ -6,19 +6,25 @@
 <table class="col-12 table-striped table-bordered table" >
     <thead class="thead-light col-12">
         <tr>
-            <td class="col-12 text-center font-weight-bold">Monthly Budget</td>
+            <td class="col-12 text-center font-weight-bold" colspan="@Model.Columns.Count">Monthly Budget</td>
         </tr>
-        @if (Model.Colmns != null && Model.Colmns.Count() > 0){
-            int i; 
-        @do {
-        <tr>
-            @for (i = 0; i < Model.Colmns.Count(); i++)
+        @if (Model.Columns != null && Model.Columns.Count() > 0)
+        {
+            @for (int j = 0; j < Model.Columns.Count(); j++)
             {
+                BudgetColumn column = Model.Columns[j];
 
+                <tr><td>@column.ColumnName</td></tr>
+                for (int i = 0; i < column.Rows.Count(); i++)
+                {
+                    BudgetRow row = column.Rows[i];
+                <tr>
+                    <td>@row.RowName</td>
+                    <td>@row.ExpectedTotal</td>
+                    <td>@row.ActualTotal</td>
+                </tr>
+                }
             }
-        </tr>
-
-        } while (i <); 
         }
     </thead> 
 </table>
