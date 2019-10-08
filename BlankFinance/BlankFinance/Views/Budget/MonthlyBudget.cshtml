@@ -1,8 +1,14 @@
-﻿@model BudgetModel
+﻿@model BudgetViewModel
 @{
     ViewData["Title"] = "MonthlyBudget";
 }
-
+<table class="col-12 text-center table table-bordered">
+    <thead>
+        <tr>
+            <td><button>Create New Budget</button></td><td><button>Load Existing Budget</button></td>
+        </tr>
+    </thead>
+</table>
 <table class="col-12 table-striped table-bordered table" >
     <thead class="thead-light col-12">
         <tr>

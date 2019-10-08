@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {}
+    "C:\\Users\\NIck Brooks\\documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {
+    "C:\\Users\\NIck Brooks\\documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
+        "projectUniqueName": "C:\\Users\\NIck Brooks\\documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
         "projectName": "BlankFinance",
-        "projectPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
+        "projectPath": "C:\\Users\\NIck Brooks\\documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
         "packagesPath": "C:\\Users\\NIck Brooks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\obj\\",
+        "outputPath": "C:\\Users\\NIck Brooks\\documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

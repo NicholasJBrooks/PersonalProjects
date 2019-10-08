@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlankFinance.Models
 {
-    public class BudgetModel
+    public class BudgetViewModel
     {
         public Collection<BudgetColumn> Columns { get; set; }
         

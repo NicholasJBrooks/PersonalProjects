@@ -8,5 +8,6 @@ namespace BlankFinance.Models
             : base(options) { }
 
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Budget> Budgets { get; set; }
     }
 }
