@@ -115,7 +115,7 @@ namespace BlankFinance.Models
             //    category = ConstVariables.SHOPPING;
             //}
             //else if (description.Contains("STDNT LOAN") || description.Contains("STUDENT LN"))
-            //{
+            //{         xxxsssss
             //    category = ConstVariables.SL;
             //}
             //else if (description.Contains("PETCO") || description.Contains("PETSMART"))

@@ -1,6 +1,21 @@
 ﻿@model BudgetViewModel
 
 @{
-    Layout = null; 
+    Layout = "_Layout";
  }
+<table>
+    <thead></thead>
+    <tbody>
+        @foreach (BudgetRow budgetRow in Model.Rows)
+        {
+            <tr>
+                @foreach (BudgetColumn column in budgetRow.Columns) 
+                {
+                    <td>strig.NUllOrWhiteSpace(@column.ColumnName) ? @column.Amount : @column.ColumnName</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
 

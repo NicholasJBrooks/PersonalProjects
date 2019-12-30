@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {}
+    "C:\\Users\\nicholas.brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {
+    "C:\\Users\\nicholas.brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
+        "projectUniqueName": "C:\\Users\\nicholas.brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
         "projectName": "BlankFinance",
-        "projectPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
-        "packagesPath": "C:\\Users\\NIck Brooks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NIck Brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\obj\\",
+        "projectPath": "C:\\Users\\nicholas.brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\BlankFinance.csproj",
+        "packagesPath": "C:\\Users\\nicholas.brooks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicholas.brooks\\Documents\\GitHub\\PersonalProjects\\BlankFinance\\BlankFinance\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\NIck Brooks\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\nicholas.brooks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -62,7 +57,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.1.9, )"
+              "version": "[2.1.10, )"
             }
           },
           "imports": [

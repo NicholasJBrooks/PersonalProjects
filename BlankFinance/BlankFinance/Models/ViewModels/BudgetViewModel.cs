@@ -9,7 +9,7 @@ namespace BlankFinance.Models
 {
     public class BudgetViewModel
     {
-        public Collection<BudgetColumn> Columns { get; set; }
+        public Collection<BudgetRow> Rows { get; set; }
         
     }
 }

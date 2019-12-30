@@ -9,18 +9,18 @@ namespace BlankFinance.Controllers
     public class BudgetController : Controller
     {
         private ITransactionRepository repository;
-        private DataAccessLayer DAL;
+        private DataAccessLayer dataAccessLayer;
 
         public BudgetController(ITransactionRepository repo, IConfiguration configuration)
         {
             repository = repo;
-            DAL = new DataAccessLayer(configuration); 
+            dataAccessLayer = new DataAccessLayer(configuration); 
         }
 
         public IActionResult MonthlyBudget()
         {
             Budget budget = new Budget();
-            budget = DAL.GetBudget();
+            budget = dataAccessLayer.GetBudget();
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.LoadXml(budget.BudgetXML); 
 
@@ -36,6 +36,17 @@ namespace BlankFinance.Controllers
                 }
             }
             return View(budget);
+        }
+
+        public IActionResult LoadBudget()
+        {
+
+            return View();
+        }
+
+        public IActionResult SaveBudget()
+        {
+            return View();
         }
     }
 } 
