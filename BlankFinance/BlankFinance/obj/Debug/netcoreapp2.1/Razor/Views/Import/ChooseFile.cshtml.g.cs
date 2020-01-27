@@ -6,11 +6,6 @@
 namespace AspNetCore
 {
     #line hidden
-#line 1 "C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\Views\Import\ChooseFile.cshtml"
-using System;
-
-#line default
-#line hidden
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
@@ -24,6 +19,11 @@ using BlankFinance.Models;
 #line hidden
 #line 2 "C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\Views\_ViewImports.cshtml"
 using BlankFinance.Models.ViewModels;
+
+#line default
+#line hidden
+#line 1 "C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\Views\Import\ChooseFile.cshtml"
+using System;
 
 #line default
 #line hidden
@@ -73,12 +73,12 @@ using BlankFinance.Models.ViewModels;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(77, 333, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93ab1e6bed75439ca121ca9b50e0ed84", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "559e3350d0c31217ee0b483f63122256a2ba83655623", async() => {
                 BeginContext(178, 74, true);
                 WriteLiteral("\r\n    <div class=\"form-group\">\r\n        <div class=\"col-12\">\r\n            ");
                 EndContext();
                 BeginContext(252, 35, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0da9ef717ab244f78d3364d152298fec", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "559e3350d0c31217ee0b483f63122256a2ba83656085", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

@@ -9,6 +9,6 @@ namespace BlankFinance.Models
     public class BudgetColumn
     {
         public string ColumnName { get; set; }
-        public decimal Amount { get; set;0 }
+        public decimal Amount { get; set;}
     }
 }

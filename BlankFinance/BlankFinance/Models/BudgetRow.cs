@@ -12,4 +12,5 @@ namespace BlankFinance.Models
         public decimal ActualTotal { get; set; }
         public decimal ExpectedTotal { get; set; }
         public Collection<BudgetColumn> Columns { get; set; }
+    }
 }

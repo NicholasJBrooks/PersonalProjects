@@ -34,10 +34,10 @@ C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\bower.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\package-lock.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\package.json
+C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.deps.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.runtimeconfig.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.runtimeconfig.dev.json
@@ -45,7 +45,6 @@ C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFin
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.pdb
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.Views.dll
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\BlankFinance.Views.pdb
-C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csprojAssemblyReference.cache
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.RazorAssemblyInfo.cache
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.RazorAssemblyInfo.cs
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.AssemblyInfoInputs.cache
@@ -68,3 +67,4 @@ C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFin
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.dll
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.pdb
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csproj.CopyComplete
+C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\BlankFinance.csprojAssemblyReference.cache
