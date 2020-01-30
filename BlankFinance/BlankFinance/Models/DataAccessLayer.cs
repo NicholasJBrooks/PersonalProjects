@@ -25,7 +25,7 @@ namespace BlankFinance.Models.Interfaces
             using (_sqlConnectionForBlankFinance = new SqlConnection(Configuration["ConnectionStrings:BFTransactions:ConnectionString"]))
             {
                 _sqlConnectionForBlankFinance.Open();
-                SqlString xml;
+                SqlString xml = null;
 
                 //Create a command to execute 
                 SqlCommand _sqlCommand = new SqlCommand();

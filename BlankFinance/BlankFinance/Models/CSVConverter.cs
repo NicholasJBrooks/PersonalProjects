@@ -23,7 +23,6 @@ namespace BlankFinance.Models
                 while ((line = streamReader.ReadLine()) != null && !string.IsNullOrWhiteSpace(line))
                 {
                     string[] split = line.Split(',');
-                    string amount = null;
 
                     Transaction temp = new Transaction()
                     {
@@ -33,7 +32,6 @@ namespace BlankFinance.Models
                         Amount = Decimal.Parse(split[3]),
                         Category = split[4]
                     };
-                    amount = null;
                     transactions.Add(temp);
                 }
             }

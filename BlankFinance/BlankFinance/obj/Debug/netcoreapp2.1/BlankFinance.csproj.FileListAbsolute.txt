@@ -35,6 +35,7 @@ C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance
 C:\Users\NIck Brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\appsettings.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\bower.json
+C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\libman.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\package-lock.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\package.json
 C:\Users\nicholas.brooks\Documents\GitHub\PersonalProjects\BlankFinance\BlankFinance\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

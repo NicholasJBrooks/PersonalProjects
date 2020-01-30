@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using BlankFinance.Models;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BlankFinance
 {
@@ -21,14 +23,15 @@ namespace BlankFinance
             services.AddDbContext<ApplicationDBContext>(options =>
             options.UseSqlServer(
                 Configuration["ConnectionStrings:BFTransactions:ConnectionString"]));
-            services.AddTransient<ITransactionRepository, EFTransactionRepository>(); 
+            services.AddTransient<ITransactionRepository, EFTransactionRepository>();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddMvc();
             services.AddSession();
             services.AddMemoryCache(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
