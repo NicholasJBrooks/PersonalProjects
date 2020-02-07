@@ -10,17 +10,17 @@ namespace BlankFinance.Controllers
     public class ImportController : Controller
     {
         private ITransactionRepository repository;
-        static private Collection<Transaction> viewTransactions = new Collection<Transaction>(); 
-        private CSVConverter Converter = new CSVConverter(); 
+        static private Collection<Transaction> viewTransactions = new Collection<Transaction>();
+        private CSVConverter Converter = new CSVConverter();
 
         public ImportController(ITransactionRepository repo)
         {
-            repository = repo; 
+            repository = repo;
         }
 
 
         public ViewResult ImportList()
-        { 
+        {
             return View(viewTransactions.AsQueryable());
         }
 
@@ -34,9 +34,9 @@ namespace BlankFinance.Controllers
             {
                 repository.SaveTransaction(transaction);
                 TempData["Message"] = $"{transaction.Description} has been saved";
-                return Redirect("ImportList"); 
+                return Redirect("ImportList");
             }
-            return View(); 
+            return View();
         }
 
         [HttpPost]
@@ -44,17 +44,26 @@ namespace BlankFinance.Controllers
         {
             viewTransactions = Converter.DesktopTransactions(model.File);
 
-            return View("ImportList", viewTransactions.AsQueryable()); 
+            return View("ImportList", viewTransactions.AsQueryable());
         }
-        
+
         [HttpPost]
         public ActionResult SaveToTransactionDB()
         {
             repository.SaveAll(viewTransactions.AsQueryable());
             repository.ClearRepository(viewTransactions.AsQueryable());
             viewTransactions = new Collection<Transaction>();
-            
+
             return View("ImportList", viewTransactions.AsQueryable());
+        }
+
+        public Collection<Transaction> ConvertToDictionaryValue(Collection<Transaction> transactions) 
+        {
+            foreach (Transaction ta in transactions) 
+            {
+               
+            }
+            return transactions; 
         } 
          
     }

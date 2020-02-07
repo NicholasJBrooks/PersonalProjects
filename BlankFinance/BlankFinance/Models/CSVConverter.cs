@@ -10,6 +10,8 @@ namespace BlankFinance.Models
         public Collection<Transaction> BankOfAmerica(IFormFile file)
         {
             Collection<Transaction> transactions = new Collection<Transaction>();
+            Collection<Type> types = new Collection<Type>();
+            Collection<Category> categories = new Collection<Category>(); 
             return transactions;
         }
 
